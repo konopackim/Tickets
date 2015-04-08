@@ -9,7 +9,7 @@ import logging
 
 def main():
     logging.basicConfig(level=logging.INFO)
-    eng = sqlalchemy.create_engine('sqlite:///tickets2.db')
+    eng = sqlalchemy.create_engine('sqlite:///tickets.db')
     # eng = sqlite3.connect("tickets.db")
     # print eng.table_names()
     d_artists = {'One Direction': 'http://www.viagogo.com/ww/Concert-Tickets/Rock-and-Pop/One-Direction-Tickets',
